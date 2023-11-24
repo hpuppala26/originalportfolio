@@ -34,34 +34,7 @@ function Footer() {
             <ContactLogos />
           </div>
         </div>
-        <div className="basis-1/4 lg:block relative hidden min-w-[300px] min-h-[300px]">
-          <div className="w-24 h-24 rounded-full bg-primaryColor-light absolute" />
-          <div className="w-4 h-4 rounded-full bg-primaryColor-light absolute top-28 left-8" />
-          <div className="w-4 h-4 rounded-full bg-primaryColor-light absolute left-48 bottom-12" />
-          <div className="w-20 h-20 rounded-full bg-primaryColor-light absolute left-48" />
-          <div className="w-8 h-8 rounded-full bg-primaryColor-light absolute left-28 -bottom-4" />
-          <div className="w-12 h-12 rounded-full bg-primaryColor-light absolute left-28 top-12" />
-          <div className="w-4 h-4 rounded-full bg-primaryColor-light absolute left-28 top-24" />
-          <div className="w-8 h-8 rounded-full bg-primaryColor-light absolute left-28 -bottom-4" />
-          <div className="w-8 h-8 rounded-full bg-primaryColor-light absolute left-48 -bottom-4" />
-          <div className="w-4 h-4 rounded-full bg-primaryColor-light absolute left-72" />
-          <div className="w-8 h-8 rounded-full bg-primaryColor-light absolute left-72 top-24" />
-          <div className="w-16 h-16 rounded-full bg-primaryColor-light absolute left-64 bottom-5" />
-          <div className="w-12 h-12 rounded-full bg-primaryColor-light absolute left-48 bottom-20" />
-          <div className="w-12 h-12 rounded-full bg-primaryColor-light absolute bottom-5" />
-          <div className="w-8 h-8 rounded-full bg-primaryColor-light absolute left-40 top-28" />
-          <div className="w-20 h-20 rounded-full bg-primaryColor-light absolute left-20 bottom-12" />
-        </div>
       </div>
-      <AppText
-        textTag="p"
-        default
-        defaultColor
-        semiBold
-        customClass="mt-12 text-center"
-      >
-        © Copyright 2023 - Shiva Sai Charan
-      </AppText>
     </footer>
   );
 }

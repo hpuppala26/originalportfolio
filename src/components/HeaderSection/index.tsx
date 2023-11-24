@@ -28,7 +28,7 @@ function HeaderSection() {
               extraLarge
               bold
               primary
-            >{`Shiva Sai Charan`}</AppText>
+            >{`Hrithik Puppala`}</AppText>
             <div className="flex flex-row flex-wrap gap-2">
               <AppText textTag="p" extraMedium semiBold defaultColor>
                 {`I'm a`}
@@ -60,7 +60,7 @@ function HeaderSection() {
         <div className="lg:basis-2/5 md:basis-auto">
   <div className="w-full h-full relative m-auto">
     <Image
-      alt="Shiva Sai Charan's Avatar Image"
+      alt="Hrithik's Avatar Image"
       src={"/images/new-avatar.png"}
       fill
       loading={"lazy"}

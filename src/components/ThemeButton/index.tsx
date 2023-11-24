@@ -14,7 +14,7 @@ function ThemeButton(): JSX.Element {
   const themeBtnRef = useRef<HTMLDivElement | null>(null);
 
   const handleChangeTheme = () => {
-    let themeToSet: TTheme = theme === "dark" ? "light" : "dark";
+    let themeToSet: TTheme = theme === "light" ? "dark" : "light";
     setLocalStorageItem(USER_THEME_PREFERENCE, themeToSet);
     setTheme(themeToSet);
   };

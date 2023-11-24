@@ -11,9 +11,9 @@ function HeaderLogo() {
         {"<"}
       </AppText>
       <a href="#">
-        <AppText textTag="span" defaultColor customClass="sm:text-4xl text-3xl">
-          {"Shiva Sai Charan"}
-        </AppText>
+        {/* <AppText textTag="span" defaultColor customClass="sm:text-4xl text-3xl">
+          {"Hrithik Puppala"}
+        </AppText> */}
       </a>
       <AppText textTag="span" secondary customClass="sm:text-4xl text-3xl">
         {"/>"}

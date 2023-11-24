@@ -11,7 +11,7 @@ import {
 } from "@/constants/menu";
 import useWindow from "@/hooks/useWindow";
 import AppText from "../AppText";
-import ThemeButton from "../ThemeButton";
+// import ThemeButton from "../ThemeButton";
 
 const sectionsLinks = [
   SKILLS,
@@ -83,9 +83,6 @@ function Menu() {
               </a>
             </li>
           ))}
-          <li>
-            <ThemeButton />
-          </li>
         </ul>
       )}
 
@@ -127,9 +124,6 @@ function Menu() {
                 </a>
               </li>
             ))}
-            <li>
-              <ThemeButton />
-            </li>
           </ul>
         </div>
       )}

@@ -37,7 +37,7 @@ function ContactLogos(): JSX.Element {
             href={contactInfo.url}
             key={contactInfo.id}
             target={"_blank"}
-            aria-label={`click to connect Shiva Sai charan's ${contactInfo.id} account`}
+            aria-label={`click to connect Hrithik's ${contactInfo.id} account`}
           >
             <Icon className="h-10 w-10 hover:scale-110 transition-transform duration-75 ease-linear" />
           </a>
