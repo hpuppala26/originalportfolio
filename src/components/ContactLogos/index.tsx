@@ -8,22 +8,17 @@ const contactInfoArr = [
   {
     id: "github",
     icon: GithubLogo,
-    url: "https://github.com/shivasaicharanruthala",
+    url: "https://github.com/Hrithik123",
   },
   {
     id: "linkedIn",
     icon: LinkedInLogo,
-    url: "https://www.linkedin.com/in/shiva-sai-charan-ruthala/",
-  },
-  {
-    id: "twitter",
-    icon: TwitterLogo,
-    url: "https://twitter.com/shiva71213534",
+    url: "https://www.linkedin.com/in/hrithik-puppala/",
   },
   {
     id: "mail",
     icon: MailLogo,
-    url: "mailto:ruthala.s@northeastern.edu",
+    url: "mailto:hrithik.puppala@sjsu.edu",
   }
 ];
 

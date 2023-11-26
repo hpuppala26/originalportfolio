@@ -67,7 +67,7 @@ function Menu() {
     <nav className="relative">
       {!showHamburgerMenu && (
         <ul
-          className="list-none flex items-center justify-start gap-x-8 gap-y-2 flex-wrap"
+          className="list-none flex items-center justify-start gap-x-16 gap-y-2 flex-wrap"
           aria-label={"section links"}
         >
           {sectionsLinks.map((sectionLink) => (

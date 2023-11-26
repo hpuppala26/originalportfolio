@@ -31,10 +31,10 @@ function Header() {
     }, []);
 
   return (
-    <header ref={headerRef} className="flex items-center justify-between gap-2 py-30 px-4 sm:py-6 sm:px-8 sm:gap-8 sticky top-0 bg-backgroundColor-day dark:bg-backgroundColor-night z-10 transition-transform duration-150 ease-linear">
-      <HeaderLogo />
-      <Menu />
-    </header>
+    <header ref={headerRef} className="flex items-center justify-center gap-2 py-30 px-4 sm:py-6 sm:px-8 sm:gap-8 sticky top-0 bg-backgroundColor-day dark:bg-backgroundColor-night z-10 transition-transform duration-150 ease-linear">
+    <Menu />
+</header>
+
   );
 }
 
