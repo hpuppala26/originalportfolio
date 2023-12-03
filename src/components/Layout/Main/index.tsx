@@ -17,7 +17,7 @@ function Main() {
       <EducationSection />
       <ExperienceSection />
       <PublicationSection/>
-      <ProjectsSection/>
+      {/* <ProjectsSection/> */}
       <CertificationsSection />
     </main>
   );

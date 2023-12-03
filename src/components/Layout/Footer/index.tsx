@@ -19,16 +19,16 @@ function Footer() {
             Reach Out to me!
           </AppText>
           <AppText textTag="h2" medium secondary customClass="mt-2">
-            DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.
+            Let's Connect and Discuss ...
           </AppText>
           <div className="flex items-center lg:justify-start justify-center gap-1 my-6">
             <LocationIcon className="h-6 w-6 fill-primaryColor-light" />
             <AppText textTag="p" default defaultColor>
-              Boston, USA
+              San Jose, USA
             </AppText>
           </div>
           <AppText textTag="p" medium defaultColor customClass="my-6">
-            Open for opportunities: Yes
+            Open for opportunities: Yes!!
           </AppText>
           <div className="flex lg:justify-start justify-center">
             <ContactLogos />
