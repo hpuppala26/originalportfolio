@@ -28,7 +28,7 @@ function Footer() {
             </AppText>
           </div>
           <AppText textTag="p" medium defaultColor customClass="my-6">
-            Open for opportunities: Yes!!
+            Open for opportunities: Yes !!
           </AppText>
           <div className="flex lg:justify-start justify-center">
             <ContactLogos />
