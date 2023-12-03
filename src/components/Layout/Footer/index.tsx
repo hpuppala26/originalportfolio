@@ -19,7 +19,7 @@ function Footer() {
             Reach Out to me!
           </AppText>
           <AppText textTag="h2" medium secondary customClass="mt-2">
-            Let's Connect and Discuss ...
+            Lets Connect and Discuss !!!
           </AppText>
           <div className="flex items-center lg:justify-start justify-center gap-1 my-6">
             <LocationIcon className="h-6 w-6 fill-primaryColor-light" />
@@ -28,7 +28,7 @@ function Footer() {
             </AppText>
           </div>
           <AppText textTag="p" medium defaultColor customClass="my-6">
-            Open for opportunities: Yes !!
+            Open for opportunities: Yes
           </AppText>
           <div className="flex lg:justify-start justify-center">
             <ContactLogos />
