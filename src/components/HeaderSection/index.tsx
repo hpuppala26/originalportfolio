@@ -51,7 +51,7 @@ function HeaderSection() {
               ariaLabel=""
               buttonType="secondary"
               onClick={() => {
-                window.open('bit.ly/hrithik-resume', '_blank');
+                window.open("https://www.bit.ly/hrithik-resume", '_blank');
               }}
               buttonText="See My Resume"
             />

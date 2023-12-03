@@ -1,29 +1,29 @@
 import React, { useRef, useEffect } from "react";
-import AppSection from "../AppSection";
-import { EDUCATION } from "@/constants/menu";
+import AppSection from "@/components/AppSection";
+// import { EDUCATION } from "@/constants/menu";
 import Image from "next/image";
-import AppText from "../AppText";
+import AppText from "@/components/AppText";
 
 const educations = [
   {
     id: "MSC",
-    date: "Sep 2022 - May 2024",
-    course: "Master of Science in Software Engineering Systems",
-    name: "Northeastern University",
-    logoURL: "/images/northeastern-university-logo.png",
-    url: "https://www.northeastern.edu/",
-    place: "Boston, USA",
-    grade: "3.762 GPA",
+    date: "August 2023 - June 2025",
+    course: "Master of Science in Software Engineering",
+    name: "San Jose State University",
+    logoURL: "/icons/sjsu.svg",
+    url: "https://www.sjsu.edu/",
+    place: "San Jose, CA,USA",
+    grade: "4 GPA",
   },
   {
     id: "BTech",
-    date: "Aug 2017 - May 2021",
+    date: "Aug 2017 - June 2021",
     course: "Bachelor of Technology in Computer Science",
     name: "Indian Institute of Information Technology Sri City",
     logoURL: "/images/iiit-logo.png",
     url: "https://www.iiits.ac.in/",
     place: "Andhra Pradesh, India",
-    grade: "7.1 CGPA",
+    grade: "3.59 CGPA",
   }
 ];
 
@@ -63,7 +63,7 @@ function EducationSection() {
   }, []);
 
   return (
-    <AppSection headerTxt={EDUCATION}>
+    <AppSection headerTxt={"education"}>
       <div className="section-content-padding grid lg:grid-cols-2 grid-cols-1 items-stretch gap-4">
         {educations.map((education) => {
           return (

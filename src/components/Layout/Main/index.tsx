@@ -13,9 +13,9 @@ function Main() {
     <main className="flex-1">
       <HeaderSection />
       <SkillsSection />
+      <EducationSection />
       <ExperienceSection />
       <ProjectsSection/>
-      <EducationSection />
       <CertificationsSection />
     </main>
   );
