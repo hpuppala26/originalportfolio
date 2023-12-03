@@ -7,12 +7,20 @@ import RedirectIcon from "@images/icons/redirect-to-icon.svg";
 
 const certifications = [
   {
-    id: "deeplearning-pytorch",
-    platform: "PadhAI - One Fourth Labs",
-    technology: "Deep Learning Basics",
-    course: "Deep Learning | Pytorch | Image Classification Models",
-    logoURL: "/images/padhai.jpeg",
-    certificateURL: "https://www.credential.net/4e67a813-ece1-4d6a-8656-1ec367b48a91",
+    id: "deeplearning-ai",
+    platform: "Coursera",
+    technology: "Deep Learning Specialization",
+    course: "Deep Learning | Neural Networks | NLP",
+    logoURL: "/images/coursera.png",
+    certificateURL: "https://www.coursera.org/account/accomplishments/certificate/7WWHG8JWJCDP",
+  },
+  {
+    id: "indmoney",
+    platform: "INDmoney",
+    technology: "Finance",
+    course: "Growing Money",
+    logoURL: "/images/indmoney.png",
+    certificateURL: "https://ind-learn.indiawealth.in/api/v1/indlearn/user/certificate/?certificate_key=86477ea6ce12a6501ce8e7c6b223678cb0a56e60a79f4ace518ff368328f8ef18991913009d5",
   }
 ];
 

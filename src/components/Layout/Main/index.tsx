@@ -7,6 +7,7 @@ import EducationSection from "@/components/EducationSection";
 import CertificationsSection from "@/components/CertificationsSection";
 import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
+import PublicationSection from "@/components/PublicationSection";
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
       <SkillsSection />
       <EducationSection />
       <ExperienceSection />
+      <PublicationSection/>
       <ProjectsSection/>
       <CertificationsSection />
     </main>
