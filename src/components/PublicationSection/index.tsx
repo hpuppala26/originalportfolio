@@ -44,7 +44,6 @@ const mainProjects = [
     techStack: ["TimeGAN", "GAN", "Supervised Learning", "Autoencoders", "RNN", "LSTM", "Prophet", "Reinforcement Learning", "PCA", "t-SNE", "Random Forest Regression", "DNN", "Scikit Learn", "Numpy", "Pandas", "Matplotlib", "Clustering", "SVM", "K-Means Clustering", "Decision Trees", "Logistic Regression"],
     imgURL: "/images/ijaresm.jpg",
     githubLink: `http://www.ijaresm.com/design-and-analysis-of-generative-adversarial-networks-for-time-series-data-augmentation`,
-    tags: [TAGS.BACKEND],
   }
 ];
 
@@ -96,19 +95,19 @@ function PublicationSection() {
     };
   }, [selectedProjects, displayedProjects]);
 
-  const onSelectTag = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const value = e.target.value;
-    if (value === "all") {
-      setSelectedProjects(mainProjects);
-      setDisplayedProjects(displayedProjects);
-    } else {
-      const filteredProjects = mainProjects.filter((project) =>
-        project.tags.includes(value)
-      );
-      setSelectedProjects(filteredProjects);
-      setDisplayedProjects(displayedProjects);
-    }
-  };
+//   const onSelectTag = (e: React.ChangeEvent<HTMLSelectElement>) => {
+//     const value = e.target.value;
+//     if (value === "all") {
+//       setSelectedProjects(mainProjects);
+//       setDisplayedProjects(displayedProjects);
+//     } else {
+//       const filteredProjects = mainProjects.filter((project) =>
+//         project.tags.includes(value)
+//       );
+//       setSelectedProjects(filteredProjects);
+//       setDisplayedProjects(displayedProjects);
+//     }
+//   };
 
   const handleOnClickBtn = () => {
     if (displayedProjects < selectedProjects.length) {
@@ -121,7 +120,7 @@ function PublicationSection() {
   return (
     <AppSection headerTxt={PUBLICATIONS}>
       <div className="section-content-padding w-full relative flex flex-col items-center justify-start md:gap-8 gap-6">
-        <select
+        {/* <select
           onChange={onSelectTag}
           className="self-end bg-transparent border-2 rounded-md border-borderColor p-2 cursor-pointer text-textColor-primary-day dark:text-textColor-primary-night"
         >
@@ -136,7 +135,7 @@ function PublicationSection() {
               </option>
             );
           })}
-        </select>
+        </select> */}
         <div className="sm:project-section-grid-layout flex flex-col gap-1" style={{ width: '500px' }} >
           {selectedProjects.slice(0, displayedProjects).map((project) => (
             <div
@@ -156,10 +155,10 @@ function PublicationSection() {
                   <a href={project.githubLink} target="_blank">
                     <GithubLogo className="h-9 w-9" />
                   </a>
-                  {project.webLink && <a href={project.webLink} target="_blank">
+                  {/* {project.webLink && <a href={project.webLink} target="_blank">
                     <GlobeIcon className="h-9 w-9" />
                   </a>}
-                  {project.demoLink && <a href={project.demoLink} target="_blank"><PlayIcon className="h-9 w-9"/></a>}
+                  {project.demoLink && <a href={project.demoLink} target="_blank"><PlayIcon className="h-9 w-9"/></a>} */}
                 </div>
                   </div>
                 <AppText textTag="p" default secondary>
