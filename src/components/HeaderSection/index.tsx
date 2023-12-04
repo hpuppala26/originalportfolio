@@ -41,10 +41,10 @@ function HeaderSection() {
             <ContactLogos />
           </div>
           <div className="flex items-center justify-start gap-4 mt-6 flex-wrap">
-            <AppButton
-              ariaLabel=""
+          <AppButton
+              ariaLabel="Send email"
               buttonType="primary"
-              onClick={() => console.log("hello")}
+              onClick={() => window.location.href = 'mailto:hrithik.puppala@sjsu.edu'}
               buttonText="Contact Me"
             />
             <AppButton
